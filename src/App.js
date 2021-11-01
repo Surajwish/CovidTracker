@@ -39,7 +39,7 @@ class App extends React.Component {
       <Cards data ={this.state.data}/>
       <Country handleCountryChange={this.handleCountryChange}/>
       <Chart data={this.state.data} country={this.state.country}/>
-      <p style={{marginTop:"25px"}}>All Rights Reserved | Suraj Vishwakarma</p>
+      <p id={styles.foot}>All Rights Reserved | Suraj Vishwakarma</p>
     </div>
   );
 }
